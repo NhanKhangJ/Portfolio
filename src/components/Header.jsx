@@ -6,13 +6,16 @@ import {FaLaptopCode} from 'react-icons/fa'
 import {RiPagesLine} from 'react-icons/ri'
 import {MdContactMail} from 'react-icons/md'
 import {RiSendPlaneFill} from 'react-icons/ri'
-import {CgDarkMode} from 'react-icons/cg'
+// import {CgDarkMode} from 'react-icons/cg'
 const Header = () => {
   return (
     <header className="header text-center">
         <div className="force-overflow">
             <h1 className="blog-name pt-lg-4 mb-0">Nhan Khang Le</h1>
             <nav className="navbar navbar-expand-lg navbar-dark">
+            <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
                 <div className="navigation navbar-collapse flex-column collapse">
                    <div className="profile-section pt-3 pt-lg-0">
                       <img className="profile-image  mb-3 rounded-circle mx-auto" src="https://media-exp1.licdn.com/dms/image/D5603AQEPljp0raV73g/profile-displayphoto-shrink_800_800/0/1666165557874?e=1675296000&v=beta&t=ap-jPdJUHV75bZPHyV8FOdYZzM-B0BqNvj80MvrRUoA" alt="pic" />
@@ -64,15 +67,15 @@ const Header = () => {
                      </li>
                    </ul>
                    <div className='my-2'>
-                     <a href=':#' className='btn btn-outline-secondary'>
+                     <a href='/contact' className='btn btn-outline-secondary'>
                         <RiSendPlaneFill /> Hire Me
                      </a> 
                    </div>
                    <div className='dark-mode-toggle text-center w-100'>
-                     <hr className='mb-4'></hr>
+                     {/* <hr className='mb-4'></hr>
                      <h4 className='toggle-name mb-3'>
                         <CgDarkMode />Dark mode
-                     </h4>
+                     </h4> */}
 
                    </div>   
                 </div>

@@ -12,7 +12,7 @@ const Project = () => {
            Welcome to my Projects. I'm have some project that I want to show you, please take a look. I'm looking for junior fullstack developer at the momment. I'm happy to help or coorparte with your web app.    
          </p>
         </div>
-        <a class="btn btn-success" href="contact.html">
+        <a class="btn btn-success" href="/contact">
         <RiSendPlaneFill /> Hire me
         </a>
       </div>

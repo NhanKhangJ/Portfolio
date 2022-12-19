@@ -18,7 +18,7 @@ const AboutMe = () => {
                 <BsFillArrowRightCircleFill className='me-2'/>
                 View Project
               </a>
-              <a className="btn btn-dark me-2 mb-3" href='/resume'>
+              <a className="btn btn-secondary me-2 mb-3" href='/resume'>
                 <AiFillFileText className='me-2'/>
                 View Resume
               </a>

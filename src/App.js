@@ -13,12 +13,12 @@ function App() {
       <Header />
       <div className="main-wrapper">
       <Routes>
-        <Route path='/' element={<About />} />
+        <Route path='/' element={<About test={false} />} />
+
+        <Route path='/project' element={<Project test={true} />}/>
 
         <Route path='/resume' element={<Resume />}/>
         
-        <Route path='/project' element={<Project />}/>
-
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

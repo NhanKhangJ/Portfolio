@@ -30,6 +30,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.collasping{
+  height: 0;
+  overflow: hidden;
+  transition: height .35s ease;
+}
+
+/* .collapse{
+  height: 600px;
+} */
+
 .header {
   position: fixed;
   left: 0;
@@ -264,6 +278,18 @@ a.theme-link {
   color: #53A7DC;
 }
 
+.overview-section .item-icon .fa-react {
+  color: #62D4FA;
+}
+
+.overview-section .item-icon .fa-node-js{
+  font-size: 1.875rem;
+  color: #54B689;
+}
+.overview-section .item-icon .fa-mongodb{
+  font-size: 1.875rem;
+  color: #1b6b46;
+}
 
 .overview-section .item-title {
   font-size: 1rem;
@@ -277,7 +303,10 @@ a.theme-link {
   height: 100%;
 }
 
-
+.card-img{
+  height: 100%;
+  border-radius: 0;
+}
 
 .project-card .card-img-holder {
   max-height: 200px;
@@ -325,7 +354,11 @@ a.theme-link {
   position: relative;
 }
 
-
+.filters .type.active {
+  border-top: 4px solid #54B689;
+  color: #54B689;
+  font-weight: bold;
+}
 
 
 .dark-mode-toggle .toggle+.toggle-btn:after {

@@ -6,38 +6,55 @@ import {FaLaptopCode} from 'react-icons/fa'
 import {RiPagesLine} from 'react-icons/ri'
 import {MdContactMail} from 'react-icons/md'
 import {RiSendPlaneFill} from 'react-icons/ri'
+import { useState } from 'react'
 // import {CgDarkMode} from 'react-icons/cg'
 const Header = () => {
+  const [navbar, setNavbar] = useState('collapsed')
+  const [show, setShow] = useState('')
+  const [collapsing, setCollapsing] = useState('collapse');
+  const onClick = (e) =>{
+   setCollapsing('collapsing')
+   setTimeout(()=>{
+      setCollapsing('collapse')
+   },500)
+   if(navbar === 'collapsed' && show ===''){
+      setNavbar('')
+      setShow('show')
+   } else if(navbar === '' && show === 'show'){
+      setNavbar('collapsed')
+      setShow('')
+   }
+  }
   return (
     <header className="header text-center">
         <div className="force-overflow">
             <h1 className="blog-name pt-lg-4 mb-0">Nhan Khang Le</h1>
             <nav className="navbar navbar-expand-lg navbar-dark">
-            <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+            <button onClick={onClick} className={`navbar-toggler ${navbar}`} type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span className="navbar-toggler-icon"></span>
 				</button>
-                <div className="navigation navbar-collapse flex-column collapse">
+                <div className={`navigation navbar-collapse flex-column ${collapsing}  ${show} `}>
                    <div className="profile-section pt-3 pt-lg-0">
                       <img className="profile-image  mb-3 rounded-circle mx-auto" src="https://media-exp1.licdn.com/dms/image/D5603AQEPljp0raV73g/profile-displayphoto-shrink_800_800/0/1666165557874?e=1675296000&v=beta&t=ap-jPdJUHV75bZPHyV8FOdYZzM-B0BqNvj80MvrRUoA" alt="pic" />
                       <div className="bio mb-3">Hi, my name is Nhan Khang Le and I'm a student of ActivateWork and Per scholas. Welcome to my portfolio</div>
                       <ul className="social-list list-inline py-2 mx-auto">
                         <li className="list-inline-item text-center ">
-                            <a href=':#'>
+                            <a href='https://twitter.com/NKL270316'>
                              <BsTwitter />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                            <a href=':#'>
+                            <a href='https://www.linkedin.com/in/nhan-khang-le-6905b4228/'>
                              <BsLinkedin />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                         <a href=':#'>
+                         <a href='https://github.com/NhanKhangJ'>
                              <FaGithubAlt />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                         <a href=':#'>
+                         <a href='https://www.instagram.com/nhankhang96/'>
                              <FaInstagramSquare />
                             </a> 
                          </li>

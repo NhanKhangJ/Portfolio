@@ -11,7 +11,7 @@ const Overview = () => {
         What I do
       </h2>
       <div className='section-intro mb-5'>
-        I have receive trainning through ActivateWork and Per Scholas with the software engineering program. I learn the MERN stack durring this trainning.
+        I have receive trainning through ActivateWork and Per Scholas with the software engineering program. I am learning the MERN stack durring this trainning.
       </div>
       <div className='row'>
         <div className='item col-6 col-lg-3'>
@@ -48,7 +48,7 @@ const Overview = () => {
         <div className='item col-6 col-lg-3'>
           <div className='item-inner'>
             <div className='item-icon'>
-              <FaReact className='skill-icons'/>
+              <FaReact className='skill-icons fa-react' />
             </div>
             <h3 className='item-title'>React</h3>
             <div className='item-desc'>
@@ -63,8 +63,8 @@ const Overview = () => {
         <div className='item col-6 col-lg-3'>
           <div className='item-inner'>
             <div className='item-icon'>
-            <FaNodeJs className='skill-icons'/>
-            <SiMongodb className='skill-icons'/>
+            <FaNodeJs className='skill-icons fa-node-js'/>
+            <SiMongodb className='skill-icons fa-mongodb'/>
             </div>
             <h3 className='item-title'>Nodejs & Mongodb</h3>
             <div className='item-desc'>

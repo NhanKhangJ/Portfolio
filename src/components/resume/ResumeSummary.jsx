@@ -7,7 +7,7 @@ const ResumeSummary = () => {
       </div>
       <div className="col text-start">
       <p className="mb-0">
-      Full-stack developer with a curiosity in technology. Able to handle and troubleshoot problems, awareness of possible issues, and develop solutions within the software development life cycle. Experienced in Collaborating with co-workers for goal-oriented results.
+Junior developer able to recognize complex problems and troubleshoot issues to develop solutions within the software development lifecycle. Skilled at collaborating with co-workers for goal-oriented results.
       </p>
       </div>
     </div>

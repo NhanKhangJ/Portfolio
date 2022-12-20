@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-
 *, *::before, *::after{
   box-sizing: border-box;
 }
@@ -175,8 +173,6 @@ a.theme-link {
     -moz-osx-font-smoothing: grayscale;
     color: #4f4f4f;
 }
-
-
 
 .btn-success{
   background-color: #54B689;
@@ -443,7 +439,17 @@ a.resume-link {
   letter-spacing: 0.15rem;
   color: #54B689;
 }
+.item-heading{
+  justify-content: space-between;
+}
 
+.item-meta{
+  width: auto;
+}
+
+.item-title{
+  width: auto;
+}
 @media (max-width: 768px) {
   .resume-contact {
     border-left: none;
@@ -453,8 +459,23 @@ a.resume-link {
     border-top: 1px solid rgba(0,0,0,0.08);
     border-left: none;
   }
+  .resume-list{
+    padding: 0;
+  }
+  .item-meta{
+    display: flex;
+    justify-content: center;
+  }
+  .resume-section-heading:before {
+    display: none;
+  }
+  .section-title:before {
+    display: none
+  }
+  .item-heading{
+    flex-direction: column;
+  }
 }
-
 .resume-profile-image{
  border-radius: 50%;
 }

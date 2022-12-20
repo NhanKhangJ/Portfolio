@@ -11,6 +11,14 @@ const Resume = () => {
     <section class="cta-section theme-bg-light py-5">
 			<div class="container text-center single-col-max-width">
 				<h2 class="heading mb-3">Online Resume</h2>
+        <div className='intro'>
+         <p>
+           This is digital resume. If you are really interested, you can download my professional resume by the button below.
+         </p>
+         <p>
+         <small>ps: My professional resume will have diffrent layouts to the digital resume.</small>
+         </p>
+        </div>
 				<a class="btn btn-success" href={NKLResume} target="_blank" rel="noreferrer">
          <BsFilePdf /> Download PDF Version
          </a>

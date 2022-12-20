@@ -14,15 +14,15 @@ const ResumeHeader = () => {
         <ul className="list-unstyled mb-0">
             <li className="mb-2">
              <BsFillTelephoneFill className="svg-inline--fa fa-square-phone fa-fw fa-lg me-2"/>
-            <a className="resume-link" href="tel:#">123-321-1234</a> 
+            <a className="resume-link" href="tel:#">720-341-4148</a> 
              </li>
             <li className="mb-2">
             <MdEmail className="svg-inline--fa fa-square-envelope fa-fw fa-lg me-2"/>
-            <a className="resume-link" href="mailto:#">khang@123.com</a> 
+            <a className="resume-link" href="mailto:khangle51096@gmail.com">khangle51096@gmail.com</a> 
             </li>
             <li className="mb-0">
             <HiLocationMarker /> 
-            Denver Colorado
+            &nbsp;&nbsp;Denver | Colorado
             </li>
         </ul>
      </div>

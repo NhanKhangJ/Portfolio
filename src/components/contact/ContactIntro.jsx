@@ -13,16 +13,16 @@ const ContactIntro = () => {
           <p>Want to get connected? Follow me on the social channel below.</p>
           <ul className="list-inline">
              <li className="contact-list list-inline-item mb-3">
-              <a href=":#"><BsTwitter className='contact-icons'/></a>
+              <a href="https://twitter.com/NKL270316" target="_blank" rel='noreferrer'><BsTwitter className='contact-icons'/></a>
              </li>
              <li className="contact-list list-inline-item mb-3">
-              <a href=":#"><BsLinkedin className='contact-icons'/></a>
+              <a href="https://www.linkedin.com/in/nhan-khang-le-6905b4228/" target="_blank" rel='noreferrer'><BsLinkedin className='contact-icons'/></a>
              </li>
              <li className="contact-list list-inline-item mb-3">
-              <a href=":#"><FaGithubAlt className='contact-icons'/></a>
+              <a href="https://github.com/NhanKhangJ" target="_blank" rel='noreferrer'><FaGithubAlt className='contact-icons'/></a>
              </li>
              <li className="contact-list list-inline-item mb-3">
-              <a href=":#"><FaInstagramSquare className='contact-icons'/></a>
+              <a href="https://www.instagram.com/nhankhang96/" target="_blank" rel='noreferrer'><FaInstagramSquare className='contact-icons'/></a>
              </li>
           </ul>
         </div>

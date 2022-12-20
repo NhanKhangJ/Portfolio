@@ -39,22 +39,22 @@ const Header = () => {
                       <div className="bio mb-3">Hi, my name is Nhan Khang Le and I'm a student of ActivateWork and Per scholas. Welcome to my portfolio</div>
                       <ul className="social-list list-inline py-2 mx-auto">
                         <li className="list-inline-item text-center ">
-                            <a href='https://twitter.com/NKL270316'>
+                            <a href='https://twitter.com/NKL270316' target="_blank" rel="noreferrer">
                              <BsTwitter />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                            <a href='https://www.linkedin.com/in/nhan-khang-le-6905b4228/'>
+                            <a href='https://www.linkedin.com/in/nhan-khang-le-6905b4228/' target="_blank" rel="noreferrer">
                              <BsLinkedin />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                         <a href='https://github.com/NhanKhangJ'>
+                         <a href='https://github.com/NhanKhangJ' target="_blank" rel="noreferrer">
                              <FaGithubAlt />
                             </a> 
                          </li>
                          <li className="list-inline-item text-center ">
-                         <a href='https://www.instagram.com/nhankhang96/'>
+                         <a href='https://www.instagram.com/nhankhang96/' target="_blank" rel="noreferrer">
                              <FaInstagramSquare />
                             </a> 
                          </li>

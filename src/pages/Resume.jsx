@@ -3,6 +3,7 @@ import ResumeSummary from "../components/resume/ResumeSummary";
 import ResumeBody from "../components/resume/ResumeBody";
 import ResumeFooter from "../components/resume/ResumeFooter";
 import { BsFilePdf } from "react-icons/bs";
+import NKLResume from '../images/NKLResume.pdf'
 
 const Resume = () => {
   return (
@@ -10,7 +11,7 @@ const Resume = () => {
     <section class="cta-section theme-bg-light py-5">
 			<div class="container text-center single-col-max-width">
 				<h2 class="heading mb-3">Online Resume</h2>
-				<a class="btn btn-success" href=":#" >
+				<a class="btn btn-success" href={NKLResume} target="_blank" rel="noreferrer">
          <BsFilePdf /> Download PDF Version
          </a>
 			</div>

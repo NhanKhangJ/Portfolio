@@ -8,7 +8,7 @@ const ResumeHeader = () => {
     <div className="row align-items-center">
     <div className="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
         <h2 className="resume-name mb-0 text-uppercase">Nhan Khang Le</h2>
-        <div className="resume-tagline mb-0 mb-md-0">Junior Fullstack developer</div>
+        <div className="resume-tagline mb-0 mb-md-0">Frontend | Backend | Junior Developer</div>
      </div>
      <div className="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
         <ul className="list-unstyled mb-0">

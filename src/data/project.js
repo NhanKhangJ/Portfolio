@@ -9,7 +9,7 @@ export const projectInfo = [
       projectName: 'Pokemon Crud',
       imageUrl: pokemonCrud,
       projectUrl: "https://odd-rose-stingray-wrap.cyclic.app/pokemon",
-      intro: "a CRUD application with React views, express server, Mongdb database, Nodejs enviroment.",
+      intro: "A CRUD application with React views, express server, Mongdb database, Nodejs enviroment.",
       techUse: "M.E.R.N stack, CSS inline styling",
       GitHub: 'https://github.com/NhanKhangJ/Pokemon_express.git',
       type: ["All", "Web App", "Frontend", "Backend"]
@@ -21,16 +21,16 @@ export const projectInfo = [
       intro: "Happy to see my Portfolio become more professional and combine useful frameworks.",
       techUse: "M.E.R.N stack, Redux, Bootstrap",
       GitHub: 'https://github.com/NhanKhangJ/Portfolio.git',
-      type: ["All", "Web App", "Mobile app", "Frontend", "Backend"]
+      type: ["All", "Web App", "Mobile App", "Frontend", "Backend"]
     },
     { 
       projectName: 'Play along',
       imageUrl: playAlong,
       projectUrl: "https://nhankhangj.github.io/GameOn/",
-      intro:"One of my favorite project with more oriented code with new logic and diffrents ways to approach.",
+      intro:"My favorite project with more oriented code with new logic and diffrents ways to approach.",
       techUse: "HTML5, CSS3, JS",
       GitHub: 'https://github.com/NhanKhangJ/GameOn.git',
-      type: ["All", "Web App","Mobile App" ,"Frontend"]
+      type: ["All","Web App","Frontend"]
     },
     { 
       projectName: 'Marvel Movies Generator',

@@ -1,6 +1,5 @@
 import {BsLinkedin, BsTwitter} from 'react-icons/bs'
 import {FaGithubAlt} from 'react-icons/fa'
-import {FaInstagramSquare} from 'react-icons/fa'
 import {BsFillPersonFill} from 'react-icons/bs'
 import {FaLaptopCode} from 'react-icons/fa'
 import {RiPagesLine} from 'react-icons/ri'
@@ -36,7 +35,7 @@ const Header = () => {
                 <div className={`navigation navbar-collapse flex-column ${collapsing}  ${show} `}>
                    <div className="profile-section pt-3 pt-lg-0">
                       <img className="profile-image  mb-3 rounded-circle mx-auto" src="https://media-exp1.licdn.com/dms/image/D5603AQEPljp0raV73g/profile-displayphoto-shrink_800_800/0/1666165557874?e=1675296000&v=beta&t=ap-jPdJUHV75bZPHyV8FOdYZzM-B0BqNvj80MvrRUoA" alt="pic" />
-                      <div className="bio mb-3">Hi, my name is Nhan Khang Le and I'm a student of ActivateWork and Per scholas. Welcome to my portfolio</div>
+                      <div className="bio mb-3">Hi, my name is Nhan Khang Le, and I'm a student of ActivateWork and Per Scholas. Welcome to my portfolio</div>
                       <ul className="social-list list-inline py-2 mx-auto">
                         <li className="list-inline-item text-center ">
                             <a href='https://twitter.com/NKL270316' target="_blank" rel="noreferrer">
@@ -51,11 +50,6 @@ const Header = () => {
                          <li className="list-inline-item text-center ">
                          <a href='https://github.com/NhanKhangJ' target="_blank" rel="noreferrer">
                              <FaGithubAlt />
-                            </a> 
-                         </li>
-                         <li className="list-inline-item text-center ">
-                         <a href='https://www.instagram.com/nhankhang96/' target="_blank" rel="noreferrer">
-                             <FaInstagramSquare />
                             </a> 
                          </li>
                       </ul>

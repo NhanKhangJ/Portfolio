@@ -13,10 +13,10 @@ const Resume = () => {
 				<h2 class="heading mb-3">Online Resume</h2>
         <div className='intro'>
          <p>
-           This is digital resume. If you are really interested, you can download my professional resume by the button below.
+           This is is my digital resume. If you are really interested, you can download my professional resume by the button below.
          </p>
          <p>
-         <small>ps: My professional resume will have diffrent layouts to the digital resume.</small>
+         <small>ps: My professional resume will be diffrent from the digital resume.</small>
          </p>
         </div>
 				<a class="btn btn-success" href={NKLResume} target="_blank" rel="noreferrer">

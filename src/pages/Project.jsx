@@ -9,7 +9,7 @@ const Project = ({test}) => {
         <h2 className='heading'>Projects</h2>
         <div className='intro'>
          <p>
-           Welcome to my Projects. I'm have some project that I want to show you, please take a look. I'm looking for junior developer . I'm happy to create or coorparte with your web app.
+         Welcome to my Projects. These projects are made during the Per Scholas program, and I'm happy to create or cooperate with your web application.
          </p>
         </div>
         <a class="btn btn-success" href="/contact">

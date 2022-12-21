@@ -9,9 +9,9 @@ const AboutMe = () => {
          <div className='profile-teaser row'>
           <div className='col'>
             <h2 className='name font-weight-bold mb-1'>Nhan Khang Le</h2>
-            <div className='tagline mb-3'>Junior Fullstack developer</div>
+            <div className='tagline mb-3'>Frontend | Backend | Junior Developer</div>
             <div className='bio mb-4'>
-              I'm a junior developer specialised in frontend and backend development for web app. My curiosity about technology always inspires me to keep learning and moving forward. I like to challenge myself about things that I can’t do. Check out my project and online resume know more about me.
+            I'm a junior developer specializing in frontend and backend development for the web app. My curiosity about technology always inspires me to keep learning and moving forward. And my goal is to be better and better every day. Check out my project and digital resume to know more about me.
             </div>
             <div className='mb-4'>
               <a className="btn btn-success me-2 mb-3" href='/project'>

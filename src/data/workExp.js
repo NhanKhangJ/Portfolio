@@ -28,7 +28,7 @@ export const workExp = [{
         "Provided support for Asia-Pacific Economic Cooperation(make it shorter) (APEC Viet Nam 2017), an international event which consisted of 30 ministers and presidents from around the world.",
         "Served as a member of the primary front-office pre-opening team and readied the hotel for APEC Viet Nam 2017's hosting President within a 14-day turnaround time.",
         "Worked closely with VIP guests using high-demand security policies to ensure the safety and privacy of each individual.",
-        "FFollowed brand signature's standard, paying close attention to detail and responding to guests' requests confidentially and expeditiously."
+        "Followed brand signature's standard, paying close attention to detail and responding to guests' requests confidentially and expeditiously."
       ]  
     },
     {

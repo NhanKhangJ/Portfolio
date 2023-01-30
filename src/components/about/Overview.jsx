@@ -19,7 +19,7 @@ const Overview = () => {
             <div className='item-icon'>
               <SiJavascript className='skill-icons fa-js-square me-2'/>
             </div>
-            <h3 className='item-title'>Vanila JavaScript</h3>
+            <h3 className='item-title'>Vanilla JavaScript</h3>
             <div className='item-desc'>
               Object oriented JavaScript 
               <br></br>

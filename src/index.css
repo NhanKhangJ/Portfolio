@@ -262,31 +262,47 @@ a.theme-link {
   margin-bottom: 2rem;
 }
 
-.overview-section .item-icon .fa-js-square {
+.fa-js-square {
   color: #F1DE4F;
 }
 
-.overview-section .item-icon .fa-html5, .overview-section .item-icon .fa-html5-alt {
+.fa-html5 {
   color: #DE6E3C;
 }
-
-.overview-section .item-icon .fa-css3-alt {
+.fa-css3-alt {
   color: #53A7DC;
 }
 
-.overview-section .item-icon .fa-react {
+.fa-react {
   color: #62D4FA;
 }
 
-.overview-section .item-icon .fa-node-js{
-  font-size: 1.875rem;
+.fa-node-js{
+
   color: #54B689;
 }
-.overview-section .item-icon .fa-mongodb{
-  font-size: 1.875rem;
+.fa-mongodb{
+  
   color: #1b6b46;
 }
+.si-express{
+  color:  #FFC107;
+}
 
+.fa-npm{
+  color: #CB3837;
+}
+
+.si-redux{
+  color: #764ABC;
+}
+.si-MUI{
+  color: #0081CB;
+}
+
+.fa-bootstrap{
+  color: #563D7C;
+}
 .overview-section .item-title {
   font-size: 1rem;
 }

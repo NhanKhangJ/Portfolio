@@ -6,6 +6,8 @@ import {RiPagesLine} from 'react-icons/ri'
 import {MdContactMail} from 'react-icons/md'
 import {RiSendPlaneFill} from 'react-icons/ri'
 import { useState } from 'react'
+import PH from '../images/PH.jpeg'
+
 // import {CgDarkMode} from 'react-icons/cg'
 const Header = () => {
   const [navbar, setNavbar] = useState('collapsed')
@@ -34,7 +36,7 @@ const Header = () => {
 				</button>
                 <div className={`navigation navbar-collapse flex-column ${collapsing}  ${show} `}>
                    <div className="profile-section pt-3 pt-lg-0">
-                      <img className="profile-image  mb-3 rounded-circle mx-auto" src="https://media-exp1.licdn.com/dms/image/D5603AQEPljp0raV73g/profile-displayphoto-shrink_800_800/0/1666165557874?e=1675296000&v=beta&t=ap-jPdJUHV75bZPHyV8FOdYZzM-B0BqNvj80MvrRUoA" alt="pic" />
+                      <img className="profile-image  mb-3 rounded-circle mx-auto" src={PH} alt="pic" />
                       <div className="bio mb-3">Hi, my name is Nhan Khang Le, and I'm a student of ActivateWork and Per Scholas. Welcome to my portfolio</div>
                       <ul className="social-list list-inline py-2 mx-auto">
                         <li className="list-inline-item text-center ">

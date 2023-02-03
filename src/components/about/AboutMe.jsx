@@ -1,6 +1,6 @@
 import { AiFillFileText } from "react-icons/ai"
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
-
+import PH from '../../images/PH.jpeg'
 
 const AboutMe = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className='col-md-5 col-lg-5'>
-            <img className='profile-image img-fluid mb-3 mb-lg-0 me-md-0' src="https://media-exp1.licdn.com/dms/image/D5603AQEPljp0raV73g/profile-displayphoto-shrink_800_800/0/1666165557874?e=1675296000&v=beta&t=ap-jPdJUHV75bZPHyV8FOdYZzM-B0BqNvj80MvrRUoA" alt='pic'/>
+            <img className='profile-image img-fluid mb-3 mb-lg-0 me-md-0' src={PH} alt='pic'/>
           </div>
          </div>
        </div>

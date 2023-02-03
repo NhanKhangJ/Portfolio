@@ -35,12 +35,12 @@ const ResumeBody = () => {
                 <section className="project-section py-3">
                     <h3 className="text-uppercase resume-section-heading mb-4">Project</h3>
                     <div className="item-mb-3">
-                        <h5>Pokemon Crud</h5>
-                        <p>a web application about pokemon using M.E.R.N stack and inline styling CSS</p>
+                        <h5>KBOOK</h5>
+                        <p>A social media web application where you can share your thought and express yourself</p>
                     </div>
                     <div className="item-mb-3">
-                        <h5>Play Along</h5>
-                        <p>a mutilplayer game about Piano, all you have to do is play the same note that is given to get point</p>
+                        <h5>Pokemon Crud</h5>
+                        <p>A web application about pokemon using M.E.R.N stack and inline styling CSS</p>
                     </div>
                     <div className="item-mb-3">
                         <h5>And a more in GitHub</h5>

@@ -37,7 +37,7 @@ export const projectInfo = [
       projectName: 'Play along',
       imageUrl: playAlong,
       projectUrl: "https://nhankhangj.github.io/GameOn/",
-      intro:"My favorite project with more oriented code with new logic and diffrents ways to approach.",
+      intro:"My favorite project with more oriented code with new logic and different ways to approach.",
       techUse: "HTML5, CSS3, JS",
       GitHub: 'https://github.com/NhanKhangJ/GameOn.git',
       type: ["All","Web App","Frontend"]

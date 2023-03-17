@@ -3,7 +3,7 @@ import ResumeSummary from "../components/resume/ResumeSummary";
 import ResumeBody from "../components/resume/ResumeBody";
 import ResumeFooter from "../components/resume/ResumeFooter";
 import { BsFilePdf } from "react-icons/bs";
-import NKLResume from '../images/NKLResume.pdf'
+import NKLResume from '../images/NhanKhangLe_Resume.pdf'
 
 const Resume = () => {
   return (

@@ -4,34 +4,35 @@ import alienAttack from '../images/alienAttack.png'
 import playAlong from '../images/playAlong.png'
 import pokemonCrud from '../images/pokemonCrud.png'
 import seconPortfolio from '../images/seconPortfolio.png';
-import Kbook from '../images/Kbook.png'
+import Kbook from '../images/Kbook.png';
+import recipeProject from '../images/recipeProject.png'
 export const projectInfo = [
-  { 
-    projectName: 'Kbook',
-    imageUrl: Kbook,
-    projectUrl: "https://kbook-user-site.onrender.com",
-    intro: "A full-stack application with M.E.R.N stack, using Redux for global state and Material UI for user interface",
-    techUse: "M.E.R.N stack, Redux, Material UI",
-    GitHub: 'https://github.com/NhanKhangJ/kbook-client-side',
-    type: ["All", "Web App", "Mobile App" ,"Frontend", "Backend"]
-  },
+    { 
+      projectName: 'Kbook',
+      imageUrl: Kbook,
+      projectUrl: "https://kbook-user-site.onrender.com",
+      intro: "A full-stack application with M.E.R.N stack, using Redux for global state and Material UI for user interface",
+      techUse: "M.E.R.N stack, Redux, Material UI",
+      GitHub: 'https://github.com/NhanKhangJ/kbook-client-side',
+      type: ["All", "Web App", "Mobile App" ,"Frontend", "Backend"]
+    },
     { 
       projectName: 'Pokemon Crud',
       imageUrl: pokemonCrud,
       projectUrl: "https://pokemon-cruc.onrender.com/pokemon",
       intro: "A CRUD application with express React views, express server, Mongdb database, Nodejs enviroment.",
       techUse: "M.E.R.N stack, CSS inline styling",
-      GitHub: 'https://github.com/NhanKhangJ/Pokemon_express.git',
+      GitHub:  'https://github.com/NhanKhangJ/Pokemon_express.git',
       type: ["All", "Web App", "Frontend", "Backend"]
     },
     { 
-      projectName: 'Second Portfolio',
-      imageUrl: seconPortfolio,
-      projectUrl: "/",
-      intro: "Happy to see my Portfolio become more professional and combine useful frameworks.",
-      techUse: "M.E.R.N stack, Redux, Bootstrap",
-      GitHub: 'https://github.com/NhanKhangJ/Portfolio.git',
-      type: ["All", "Web App", "Mobile App", "Frontend", "Backend"]
+      projectName: 'Shopping Recipe',
+      imageUrl: recipeProject,
+      projectUrl: "https://angular-recipe-firebase.onrender.com",
+      intro: "A CRUD application with Angular and Firebase",
+      techUse: "Angular, RxJs, Bootstrap, Firebase",
+      GitHub: 'https://github.com/NhanKhangJ/shopping-recipe',
+      type: ["All", "Web App", "Frontend"]
     },
     { 
       projectName: 'Play along',
@@ -41,6 +42,15 @@ export const projectInfo = [
       techUse: "HTML5, CSS3, JS",
       GitHub: 'https://github.com/NhanKhangJ/GameOn.git',
       type: ["All","Web App","Frontend"]
+    },
+    { 
+      projectName: 'Second Portfolio',
+      imageUrl: seconPortfolio,
+      projectUrl: "/",
+      intro: "Happy to see my Portfolio become more professional and combine useful frameworks.",
+      techUse: "M.E.R.N stack, Redux, Bootstrap",
+      GitHub: 'https://github.com/NhanKhangJ/Portfolio.git',
+      type: ["All", "Web App", "Mobile App", "Frontend", "Backend"]
     },
     { 
       projectName: 'Marvel Movies Generator',

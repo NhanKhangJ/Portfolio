@@ -9,7 +9,7 @@ const Overview = () => {
         What I do
       </h2>
       <div className='section-intro mb-5'>
-        I have receive trainning through ActivateWork and Per Scholas with the software engineering program. I am learning the MERN stack durring this trainning.
+        As an experienced software engineer, I design and build web applications using Angular and React, crafting user-friendly and interactive interfaces.
       </div>
       <div className='row'>
        {skills.map((skill, index)=> 

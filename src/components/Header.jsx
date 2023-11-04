@@ -37,7 +37,7 @@ const Header = () => {
                 <div className={`navigation navbar-collapse flex-column ${collapsing}  ${show} `}>
                    <div className="profile-section pt-3 pt-lg-0">
                       <img className="profile-image  mb-3 rounded-circle mx-auto" src={PH} alt="pic" />
-                      <div className="bio mb-3">Hi, my name is Nhan Khang Le, and I'm a student of ActivateWork and Per Scholas. Welcome to my portfolio</div>
+                      <div className="bio mb-3">Hi, my name is Nhan Khang Le, and I'm a Software Engineer. Welcome to my portfolio</div>
                       <ul className="social-list list-inline py-2 mx-auto">
                         <li className="list-inline-item text-center ">
                             <a href='https://twitter.com/NKL270316' target="_blank" rel="noreferrer">

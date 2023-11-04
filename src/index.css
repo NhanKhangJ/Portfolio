@@ -273,8 +273,16 @@ a.theme-link {
   color: #53A7DC;
 }
 
+.fa-sass{
+  color: #c253a1;
+}
+
 .fa-react {
   color: #62D4FA;
+}
+
+.fa-angular{
+  color: red;
 }
 
 .fa-node-js{
@@ -307,6 +315,26 @@ a.theme-link {
   font-size: 1rem;
 }
 
+
+.si-ts-square{
+  color: #1976d2;
+}
+
+.si-cs-round{
+  color: #184896;
+}
+
+.si-tailwind{
+  color: #56a87f;
+}
+
+.si-dotnet{
+  color: #184896;
+}
+
+.si-graphql{
+  color:#c253a1;
+}
 .project-card {
   border-radius: 0;
   background: #fafafa;

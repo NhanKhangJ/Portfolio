@@ -55,9 +55,10 @@ const ResumeBody = () => {
                     <h4 className="item-title">Technical</h4>
                     <ul className="list-unstyled resume-skills-list">
                     <li className="mb-2">Html5,CSS3</li>
-                    <li className="mb-2">Vanilla Javascript</li>
-                    <li className="mb-2">React, Node</li>
-                    <li className="mb-2">Mongodb</li>
+                    <li className="mb-2">Typescript, Javascript, C#</li>
+                    <li className="mb-2">Angular, React</li>
+                    <li className="mb-2">NodeJS, Dotnet</li>
+                    <li className="mb-2">Mongodb, SQL</li>
                   </ul>
                  </div>
                  <div className="item">

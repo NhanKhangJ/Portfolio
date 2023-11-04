@@ -1,44 +1,32 @@
 export const workExp = [{
-    title: "Nail Technician",
-    employer: "Snappy Naisl | 2021-2022",
-    jobDescription:"Provided manicure-pedicure services and listened to customer needs to achieve client satisfaction.",
+    title: "Junior Software Engineer",
+    employer: "Kanso Software | 2023-current",
+    jobDescription:"Developed and Maintained Housing Management Software",
     jobDetails:[
-      "Built sustainable relationships with customers to keeps the stability of the Shop's revenue.",
-      "Built sustainable relationships with customers to keeps the stability of the shop's revenue.",
-      "Performed a high volume of daily tasks in gel, acrylic, and natural manicures.",
-      "Enforced safety procedures following facility policies and government regulations."
+      "Implemented government regulations into software functionality, achieving 100% compliance with industry standards.",
+      "Proficiently designed and maintained Housing Management software solutions, ensuring seamless integration with AngularJS, Angular, Node.js, and .NET backend systems.",
+      "Consistently exceeded project timelines, delivering new features 20% ahead of schedule",
+      "Efficiently managed project deadlines, ensuring on-time completion of tasks and milestones, contributing to a 95% project completion rate."
     ]
   },
     {
-      title: "Ticketing Supervisor",
-      employer: "Hoian Imression theme Park| 2021-2022",
-      jobDescription:"Supervised ticket procedure, collaborated with marketing team and delivered exceptional customer experience.",
+      title: "Software Engineer Trainee/Interns",
+      employer: "Per Scholas | 2022-2023",
+      jobDescription:"",
       jobDetails:[
-        "Promoted to three different roles, resulting in promotion to Ticketing Supervisor.",
-        "Coordinated with city officials to provide event coordination and sales to promote tourism and cultural experiences.",
-        "Trained employees on best practices and protocols while managing teams to maintain optimal productivity.",
-        "Supported the marketing and sales teams by providing technical solution, including a new sales management system."
+        "Provided clear explanations of complex coding concepts to peers, contributing to a noticeable 20% enhancement in classmates comprehension and proficiency in challenging topics.",
+        "Conducted individual mentorship sessions, resulting in a significant 30% enhancement in participants' coding efficiency and problem-solving capabilities, showcasing impactful guidance and support.",
+        "Actively sought feedback from mentors and peers, maintaining a high satisfaction rate of 90%, highlighting receptiveness to constructive criticism and a proactive approach to continuous learning.",
+        "Efficiently managed project deadlines, ensuring on-time completion of tasks and milestones, contributing to a 95% project completion rate."
       ]  
     },
     {
-      title: "Bell Man",
-      employer: "Sheraton Grand | 2018-2020",
-      jobDescription:"Provide services at one of the most prestigious hotels in Viet Nam",
+      title: "Nail Technician",
+      employer: "Snappy Nails LLC | 2021-2022",
+      jobDescription:"",
       jobDetails:[
-        "Provided support for Asia-Pacific Economic Cooperation(make it shorter) (APEC Viet Nam 2017), an international event which consisted of 30 ministers and presidents from around the world.",
-        "Served as a member of the primary front-office pre-opening team and readied the hotel for APEC Viet Nam 2017's hosting President within a 14-day turnaround time.",
-        "Worked closely with VIP guests using high-demand security policies to ensure the safety and privacy of each individual.",
-        "Followed brand signature's standard, paying close attention to detail and responding to guests' requests confidentially and expeditiously."
-      ]  
-    },
-    {
-      title: "Receptionist",
-      employer: "Vinpearl Ocean Resorts and villas | 2018-2020",
-      jobDescription:"Managed reservations and provided excellent customer service for prominent guests.",
-      jobDetails:[
-        "Recognized for reorganizing data to improve billing task completion speed by 60%..",
-        "Promoted from Bellman to Front Desk Associate within three months.",
-        "Worked closely with guests using resort's policies to promote safety and privacy of customers.",
+        "Demonstrated effective communication, utilizing language skills and customer service expertise, fostering positive interactions.",
+        "Established and nurtured lasting customer relationships, enhancing overall customer satisfaction ratings by 20%.",
       ]  
     }
   ]

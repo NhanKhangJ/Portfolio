@@ -18,7 +18,7 @@ export const projectInfo = [
     { 
       projectName: 'Pokemon Crud',
       imageUrl: pokemonCrud,
-      projectUrl: "https://odd-rose-stingray-wrap.cyclic.app/pokemon",
+      projectUrl: "https://pokemon-cruc.onrender.com/pokemon",
       intro: "A CRUD application with express React views, express server, Mongdb database, Nodejs enviroment.",
       techUse: "M.E.R.N stack, CSS inline styling",
       GitHub: 'https://github.com/NhanKhangJ/Pokemon_express.git',
